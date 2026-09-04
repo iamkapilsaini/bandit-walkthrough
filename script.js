@@ -8,7 +8,7 @@
    CONFIGURATION
 ========================================================= */
 
-const TOTAL_LEVELS = 34;
+const TOTAL_LEVELS = 33;
 
 
 /*
@@ -20,7 +20,7 @@ const TOTAL_LEVELS = 34;
     18 means you have completed Level 0 → Level 18.
 */
 
-const COMPLETED_LEVELS = 18;
+const COMPLETED_LEVELS = 33;
 
 
 /*
