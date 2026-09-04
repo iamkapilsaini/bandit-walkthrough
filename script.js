@@ -61,9 +61,9 @@ for (let i = 0; i < TOTAL_LEVELS; i++) {
 }
 */
 
-const TOTAL_LEVELS = 35;
+const TOTAL_LEVELS = 34;
 
-const COMPLETED_LEVELS = 35;
+const COMPLETED_LEVELS = 33;
 
 const levels = Array.from({ length: TOTAL_LEVELS }, (_, i) => {
     if (i === 34) {
@@ -191,7 +191,7 @@ function createLevelList(filter = "") {
             </span>
 
             <span>
-                ${level.id < 35
+                ${level.id < 33
                     ? `Level ${level.id} → ${level.id + 1}`
                     : `Level ${level.id}`}
             </span>
