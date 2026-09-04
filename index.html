@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Interactive OverTheWire Bandit walkthrough and solutions.">
+
+    <title>Bandit Walkthrough</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Highlight.js theme -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/github-dark.min.css">
+</head>
+
+<body>
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header class="topbar">
+
+        <div class="brand">
+            <span class="brand-symbol">></span>
+
+            <div>
+                <h1>Bandit Walkthrough</h1>
+                <p>OverTheWire • Linux • Security</p>
+            </div>
+        </div>
+
+        <div class="header-actions">
+
+            <a
+                href="https://github.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="github-button"
+            >
+                GitHub
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN APPLICATION
+    ====================================================== -->
+
+    <div class="app">
+
+
+        <!-- =================================================
+             SIDEBAR
+        ================================================== -->
+
+        <aside class="sidebar">
+
+            <div class="sidebar-header">
+
+                <div class="sidebar-title">
+                    <span class="terminal-dot"></span>
+                    BANDIT LEVELS
+                </div>
+
+                <button
+                    id="mobileClose"
+                    class="mobile-close"
+                    aria-label="Close menu"
+                >
+                    ×
+                </button>
+
+            </div>
+
+
+            <!-- Progress -->
+
+            <div class="progress-section">
+
+                <div class="progress-header">
+
+                    <span>Progress</span>
+
+                    <span id="progressText">
+                        0 / 34
+                    </span>
+
+                </div>
+
+                <div class="progress-bar">
+
+                    <div
+                        id="progressFill"
+                        class="progress-fill"
+                    ></div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Search -->
+
+            <div class="search-container">
+
+                <span class="search-icon">⌕</span>
+
+                <input
+                    type="text"
+                    id="levelSearch"
+                    placeholder="Search levels..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+
+            <!-- Level navigation -->
+
+            <nav
+                id="levelList"
+                class="level-list"
+                aria-label="Bandit levels"
+            >
+                <!-- JavaScript generates levels here -->
+            </nav>
+
+
+            <div class="sidebar-footer">
+
+                <span>OverTheWire</span>
+
+                <a
+                    href="https://overthewire.org/wargames/bandit/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Official Bandit
+                </a>
+
+            </div>
+
+        </aside>
+
+
+        <!-- =================================================
+             CONTENT
+        ================================================== -->
+
+        <main class="content-area">
+
+
+            <!-- Mobile menu -->
+
+            <button
+                id="mobileMenu"
+                class="mobile-menu"
+            >
+                ☰
+                <span>Levels</span>
+            </button>
+
+
+            <!-- Content -->
+
+            <article
+                id="content"
+                class="content"
+            >
+
+                <!-- Loading screen -->
+
+                <div class="welcome-screen">
+
+                    <div class="welcome-icon">
+                        >
+                    </div>
+
+                    <h2>Bandit Walkthrough</h2>
+
+                    <p>
+                        Select a level from the left sidebar
+                        to view the walkthrough.
+                    </p>
+
+                    <div class="welcome-command">
+                        <span>$</span>
+                        select-level
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- =================================================
+                 PREVIOUS / NEXT
+            ================================================== -->
+
+            <div
+                id="navigation"
+                class="content-navigation"
+            >
+
+                <button
+                    id="previousButton"
+                    class="nav-button previous"
+                >
+                    <span>←</span>
+
+                    <div>
+                        <small>Previous</small>
+                        <strong id="previousText">
+                            Previous Level
+                        </strong>
+                    </div>
+
+                </button>
+
+
+                <button
+                    id="nextButton"
+                    class="nav-button next"
+                >
+
+                    <div>
+                        <small>Next</small>
+                        <strong id="nextText">
+                            Next Level
+                        </strong>
+                    </div>
+
+                    <span>→</span>
+
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <!-- =====================================================
+         MARKDOWN PARSER
+    ====================================================== -->
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/marked/marked.min.js">
+    </script>
+
+
+    <!-- =====================================================
+         SYNTAX HIGHLIGHTING
+    ====================================================== -->
+
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js">
+    </script>
+
+
+    <!-- =====================================================
+         MAIN JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
