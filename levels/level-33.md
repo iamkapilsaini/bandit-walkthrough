@@ -25,6 +25,7 @@ Read the final README:
 
 ```bash
 bandit33@bandit:~$ cat README.txt
+
 Congratulations on solving the last level of this game!
 
 At this moment, there are no more levels to play in this game. However, we are constantly working
