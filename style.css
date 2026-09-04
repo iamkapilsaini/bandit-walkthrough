@@ -148,6 +148,59 @@ body {
     background: #111b14;
 }
 
+/* ================================
+   TOPBAR RIGHT SIDE
+================================ */
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.profile-link {
+    color: #9aa0a6;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 14px;
+    transition: color 0.2s ease;
+}
+
+.profile-link:hover {
+    color: #ffffff;
+}
+
+.github-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 8px 14px;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    border: 1px solid #3a3f45;
+    border-radius: 6px;
+
+    background: #161b22;
+
+    font-size: 14px;
+    font-weight: 600;
+
+    transition:
+        background 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.github-btn:hover {
+    background: #21262d;
+    border-color: #666;
+}
+
+.github-btn svg {
+    flex-shrink: 0;
+}
 
 /* =========================================================
    APPLICATION LAYOUT
@@ -1199,4 +1252,23 @@ body {
         font-size: 11px;
     }
 
+}
+
+@media (max-width: 800px) {
+
+    .topbar-right {
+        gap: 8px;
+    }
+
+    .profile-link {
+        font-size: 12px;
+    }
+
+    .github-btn {
+        padding: 7px 10px;
+    }
+
+    .github-btn span {
+        display: none;
+    }
 }
