@@ -8,7 +8,7 @@
    CONFIGURATION
 ========================================================= */
 
-const TOTAL_LEVELS = 33;
+const TOTAL_LEVELS = 34;
 
 
 /*
