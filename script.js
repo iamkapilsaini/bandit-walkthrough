@@ -8,7 +8,7 @@
    CONFIGURATION
 ========================================================= */
 
-/* const TOTAL_LEVELS = 35;
+ const TOTAL_LEVELS = 34;
 
 
 /*
@@ -19,7 +19,7 @@
 
     18 means you have completed Level 0 → Level 18.
 
----------
+---------*/
 const COMPLETED_LEVELS = 34;
 
 
@@ -37,7 +37,7 @@ const COMPLETED_LEVELS = 34;
     etc.
 */
 
-/* ----------------
+/* ----------------*/
 const levels = [];
 
 
@@ -59,8 +59,8 @@ for (let i = 0; i < TOTAL_LEVELS; i++) {
     });
 
 }
-*/
 
+/*
 const TOTAL_LEVELS = 34;
 
 const COMPLETED_LEVELS = 33;
@@ -81,7 +81,7 @@ const levels = Array.from({ length: TOTAL_LEVELS }, (_, i) => {
     };
 }); 
 
-
+*/
 
 /* =========================================================
    STATE
