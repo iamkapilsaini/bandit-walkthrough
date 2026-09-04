@@ -68,7 +68,7 @@ body {
 
     border-bottom: 1px solid #283029;
 
-    position: sticky;
+    position: relative;      
     top: 0;
 
     z-index: 1000;
@@ -146,6 +146,22 @@ body {
     color: #69d27a;
 
     background: #111b14;
+}
+
+/* ======================
+   Middle Username
+=======================*/
+
+.profile-name {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: #ffffff;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
 /* ================================
