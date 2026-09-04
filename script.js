@@ -37,7 +37,7 @@ const COMPLETED_LEVELS = 34;
     etc.
 */
 
-/*
+
 const levels = [];
 
 
@@ -59,8 +59,8 @@ for (let i = 0; i < TOTAL_LEVELS; i++) {
     });
 
 }
-*/
 
+/*
 const TOTAL_LEVELS = 35;
 
 const levels = Array.from({ length: TOTAL_LEVELS }, (_, i) => {
@@ -77,7 +77,7 @@ const levels = Array.from({ length: TOTAL_LEVELS }, (_, i) => {
         title: `Level ${i} → Level ${i + 1}`,
         file: `levels/level-${String(i).padStart(2, "0")}.md`
     };
-});
+}); */
 
 /* =========================================================
    STATE
