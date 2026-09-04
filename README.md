@@ -5,7 +5,7 @@ OverTheWire Bandit.
 
 ## 🌐 Website
 
-[Open Bandit Walkthrough]
+[Open Bandit Walkthrough](https://iamkapilsaini.github.io/bandit-walkthrough/)
 
 ## 📚 About
 
