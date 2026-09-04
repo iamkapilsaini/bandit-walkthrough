@@ -11,17 +11,7 @@
  const TOTAL_LEVELS = 34;
 
 
-/*
-    Change this number to the number of levels
-    you have actually completed.
-
-    Example:
-
-    18 means you have completed Level 0 → Level 18.
-
----------*/
 const COMPLETED_LEVELS = 34;
-
 
 /*
     Level file names.
@@ -60,28 +50,6 @@ for (let i = 0; i < TOTAL_LEVELS; i++) {
 
 }
 
-/*
-const TOTAL_LEVELS = 34;
-
-const COMPLETED_LEVELS = 33;
-
-const levels = Array.from({ length: TOTAL_LEVELS }, (_, i) => {
-    if (i === 34) {
-        return {
-            number: 34,
-            title: "Level 33 → Level 34",
-            file: "levels/level-34.md"
-        };
-    }
-
-    return {
-        number: i,
-        title: `Level ${i} → Level ${i + 1}`,
-        file: `levels/level-${String(i).padStart(2, "0")}.md`
-    };
-}); 
-
-*/
 
 /* =========================================================
    STATE
