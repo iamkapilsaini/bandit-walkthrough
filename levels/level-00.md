@@ -37,11 +37,15 @@ The output is the password for `bandit1`.
 
 Use that password when connecting to the next level.
 
+
 ## 🧠 Explanation
 
 `ssh` provides secure remote access, 
+
 `ls` lists directory contents,
+
 `cat` displays a file.
+
 
 ## 📚 What I Learned
 
