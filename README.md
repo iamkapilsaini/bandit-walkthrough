@@ -19,7 +19,7 @@ OverTheWire Bandit wargame.
 - Level 1 → 2
 - Level 2 → 3
 - ...
-- Level 32 → 33
+- Level 33 → 34
 
 ## 🛠️ Technologies
 
