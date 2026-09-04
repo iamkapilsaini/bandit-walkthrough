@@ -33,11 +33,15 @@ The file `readme` is present. Read it:
 cat readme
 ```
 
-The output is the password for `bandit1`. Use that password when connecting to the next level.
+The output is the password for `bandit1`. 
+
+Use that password when connecting to the next level.
 
 ## 🧠 Explanation
 
-`ssh` provides secure remote access, `ls` lists directory contents, and `cat` displays a file.
+`ssh` provides secure remote access, 
+`ls` lists directory contents,
+`cat` displays a file.
 
 ## 📚 What I Learned
 
