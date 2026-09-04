@@ -1288,3 +1288,27 @@ body {
         display: none;
     }
 }
+
+/* =========================================================
+   MOBILE HEADER
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+    .topbar {
+        height: auto;
+        min-height: 70px;
+        flex-wrap: wrap;
+        padding: 10px 15px;
+    }
+
+    .profile-name {
+        position: static;
+        transform: none;
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+        font-size: 13px;
+    }
+
+}
