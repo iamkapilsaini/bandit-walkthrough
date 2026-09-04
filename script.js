@@ -191,7 +191,7 @@ function createLevelList(filter = "") {
             </span>
 
             <span>
-                ${level.id < 33
+                ${level.id < 34
                     ? `Level ${level.id} → ${level.id + 1}`
                     : `Level ${level.id}`}
             </span>
